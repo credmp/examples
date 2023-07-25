@@ -1,0 +1,4 @@
+CREATE DATABASE keycloak;
+CREATE USER keycloak WITH PASSWORD 'loempia';
+GRANT ALL PRIVILEGES ON DATABASE keycloak TO keycloak;
+ALTER DATABASE keycloak OWNER TO keycloak;
